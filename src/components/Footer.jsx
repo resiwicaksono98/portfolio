@@ -7,8 +7,8 @@ export default function Footer() {
   return (
     <div className="flex md:mt-[10rem]  items-center text-white font-kanit bg-dark-blue h-[8rem]">
       <div className="font-semibold text-md md:flex gap-12 justify-center items-center w-full">
-        <div className="flex text-sm md:text-base justify-center">
-          © Copyright 2022 • Resi Wicaksono • All right reserved
+        <div className="flex mx-4 text-sm justify-center">
+          © Copyright 2022 • Resi Wicaksono • All Right Reserved
         </div>
         <div className="flex gap-4 mt-4 md:mt-0 justify-center">
           <img src={Instagram} alt="instagram" className="h-[50px]" />

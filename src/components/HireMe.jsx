@@ -5,8 +5,8 @@ import Rocket from "../assets/images/Rocket.png";
 
 export default function HireMe() {
   return (
-    <div className=" flex  md:mt-16 md:h-[25rem]">
-      <div className=" flex font-kanit text-[200px] font-semibold bg-inherit ml-10 w-full opacity-5 text-white justify-start ">
+    <div className=" flex -mt-28  md:mt-16 md:h-[25rem]">
+      <div className=" flex font-kanit  lg:text-[200px] font-semibold bg-inherit md:ml-10  opacity-5 text-white justify-start ">
         Hire Me
       </div>
       <div className="absolute font-kanit text-[40px]  mt-24 w-full text-center  text-white font-semibold">
