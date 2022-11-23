@@ -18,7 +18,7 @@ export default function Skills() {
         MY SKILLS
       </div>
       {/* Left */}
-      <div className="absolute mx-[8rem] w-[20rem] md:mt-10 flex flex-col items-center lg:items-start  sm:ml-[8rem] md:ml-[11rem] xl:ml-[8rem]">
+      <div className="absolute mx-[5rem] w-[20rem] md:mt-10 flex flex-col items-center lg:items-start  sm:ml-[8rem] md:ml-[11rem] xl:ml-[8rem]">
         <div className="font-kanit text-2xl mb-4 sm:text-[40px] font-semibold text-white">
           Some Of My Skill
         </div>
@@ -32,7 +32,7 @@ export default function Skills() {
       </div>
       {/* Right */}
       <motion.div
-        initial={{ rotate: 45 }}
+        initial={{ rotate: 40 }}
         whileInView={{ rotate: 0 }}
         transition={{ duration: 2, type: "just" }}
         className="z-30 absolute flex mt-[10rem] md:mt-[14rem] lg:mt-0 bg-white h-[12rem] w-[12rem] sm:h-[18rem] sm:w-[18rem] justify-center items-center rounded-full ml-[1rem] sm:ml-[9rem]  md:ml-[12rem] lg:ml-[35rem] "

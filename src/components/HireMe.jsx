@@ -17,7 +17,6 @@ export default function HireMe() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.2 }}
           transition={{ duration: 2, type: "spring" }}
           className="flex flex-col gap-2 mb-6 lg:mb-0  w-full lg:mx-[60px] lg:w-[430px] items-center"
         >
@@ -40,7 +39,6 @@ export default function HireMe() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.2 }}
           transition={{ duration: 2, type: "spring", delay: 0.5 }}
           className="flex flex-col gap-2 mb-6 lg:mb-0  w-full lg:mx-[60px] lg:w-[430px] items-center"
         >
@@ -63,7 +61,6 @@ export default function HireMe() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          whileHover={{ scale: 1.2 }}
           transition={{ duration: 2, type: "spring", delay: 0.8 }}
           className="flex flex-col gap-2 mb-6 lg:mb-0  w-full lg:mx-[60px] lg:w-[430px] items-center"
         >
